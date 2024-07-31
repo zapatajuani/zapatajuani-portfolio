@@ -1,0 +1,23 @@
+{
+    "titulo": {
+        "titulo": "Juan Ignacio Zapata",
+        "subtitulo": "Programador Backend | Desarrolador Python",
+        "descripcion": "Soy un desarrollador apasionado por la programación, impulsado por la curiosidad y el aprendizaje continuo. Disfruto creando soluciones elegantes y eficientes a problemas complejos."
+    },
+    "experiencia": {
+        "exp1": {
+            "empresa": "SDS - Smart Drawing Services",
+            "lugar": "Auckland, NZ",
+            "puesto": "Diseño eléctrico | Desarrollo de software",
+            "tiempo": "Enero 2021 - Presente",
+            "experiencia": "Ingresé en una empresa neozelandesa de ingeniería donde cumplo el rol de diseñador de planos eléctricos, desarrollo estándares de diseño propios de la empresa y trabajos en programación. Elaboré scripts en Python para la automatización de tareas. Trabajé en el desarrollo de una aplicación web de trackeo GPS con equipos IOT, implicando el diseño tanto de backend como frontend de la misma. Continuó mejorando y trabajando para llevar la mejor calidad y confiabilidad a los clientes."
+        },
+        "exp2": {
+            "empresa": "Trabajo freelance",
+            "lugar": "Remoto",
+            "puesto": "Diseño eléctrico",
+            "tiempo": "Agosto 2019 - Enero 2021",
+            "experiencia": "Realicé diferentes trabajos para empresas Neozelandesas de diseño eléctrico de alta/media/baja potencia en el ámbito de plantas potabilizadoras de agua. Trabaje de manera coordinada de manera remota con distintos equipos de trabajo y utilizando el software de diseño Autocad Electrical para estar acorde a los estándares IEC de diseño."
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.titulo {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0.4fr 0.4fr 0.2fr;
+}
+
+.titulo div {
+    /* border: 1px solid purple; */
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.titulo div:first-child {
+    grid-row-start: span 4;
+    justify-content: center;
+}
+
+.titulo div:nth-child(2) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+/* -------------------------------------- */
+
+#foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.titulo div p {
+    text-align: justify;
+}

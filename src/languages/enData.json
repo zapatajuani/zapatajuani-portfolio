@@ -1,0 +1,23 @@
+{
+    "titulo": {
+        "titulo": "Juan Ignacio Zapata",
+        "subtitulo": "Backend Programmer | Python Developer",
+        "descripcion": "I am a developer with a passion for programming, driven by curiosity and continuous learning. I enjoy creating elegant and efficient solutions to complex problems."
+    },
+    "experiencia": {
+        "exp1": {
+            "empresa": "SDS - Smart Drawing Services",
+            "lugar": "Auckland, NZ",
+            "puesto": "Electrical Designer and Draftsman | Software development",
+            "tiempo": "January 2021 - Present",
+            "experiencia": "I joined a New Zealand engineering company where I worked as an electrical drawing designer, developing in-house design standards and programming work. I developed Python scripts to automate tasks. I worked on the development of a web application for GPS tracking with IOT devices, involving both backend and frontend design. Constantly improving and working to bring the best quality and reliability to customers."
+        },
+        "exp2": {
+            "empresa": "Freelance work",
+            "lugar": "Remote",
+            "puesto": "Electrical Drafter",
+            "tiempo": "August 2019 - January 2021",
+            "experiencia": "I have worked for a number of New Zealand companies on high/medium/low power electrical design for water treatment plants. Working remotely in coordination with various teams and using Autocad electrical design software to meet IEC design standards."
+        }
+    }
+}

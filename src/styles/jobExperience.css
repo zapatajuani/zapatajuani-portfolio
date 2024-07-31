@@ -1,0 +1,29 @@
+.content-divisor.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-tittle {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.secondary-tittle {
+    font-size: 18px;
+}
+
+.content {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.timeline-connector {
+    transition: all 0.3s;
+}
+
+.timeline-container:hover .timeline-connector {
+    background-color: rgb(29, 179, 74);
+    transition: all 0.3s;
+}

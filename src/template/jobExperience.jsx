@@ -1,7 +1,6 @@
 import * as React from 'react';
 import '../styles/jobExperience.css'
 import {
-    Timeline,
     TimelineItem,
     TimelineDot,
     TimelineSeparator,
@@ -9,7 +8,7 @@ import {
     TimelineConnector
 } from '@mui/lab';
 
-function JobExperience({ id, data, separator = true }) {
+function JobExperience({ data, separator = true }) {
     return (
         <TimelineItem className='timeline-container'>
           <TimelineSeparator>

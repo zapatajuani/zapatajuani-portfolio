@@ -4,6 +4,7 @@
         "subtitulo": "Programador Fullstack | Desarrolador Python",
         "descripcion": "Soy un desarrollador apasionado por la programación, impulsado por la curiosidad y el aprendizaje continuo. Disfruto creando soluciones elegantes y eficientes a problemas complejos."
     },
+
     "experiencia": {
         "exp1": {
             "empresa": "SDS - Smart Drawing Services",
@@ -20,6 +21,7 @@
             "experiencia": "Realicé diferentes trabajos para empresas Neozelandesas de diseño eléctrico de alta/media/baja potencia en el ámbito de plantas potabilizadoras de agua. Trabaje de manera coordinada de manera remota con distintos equipos de trabajo y utilizando el software de diseño Autocad Electrical para estar acorde a los estándares IEC de diseño."
         }
     },
+
     "proyectos": {
         "proyecto1": {
             "img": "../src/assets/foto-presentacion.jpeg",
@@ -28,6 +30,26 @@
             "tecnologias": ["html","css","react"],
             "url": "https://www.google.com",
             "github": "https://www.youtube.com"
+        }
+    },
+
+    "estudios": {
+        "estudio4": {
+            "institucion": "UTN Buenos Aires - Centro de e-Learning UTN BA",
+            "lugar": "Remote",
+            "titulo": "Diploma in Databases",
+            "tiempo": "Nov 2023 - Feb 2024",
+            "certificado": {
+                "state": true,
+                "url": ""
+            },
+            "conocimientos": [
+                "Advanced Python skills",
+                "Classes",
+                "Object-oriented programming", 
+                "GUI usage and design",
+                "Design patterns"
+            ]
         }
     }
 }

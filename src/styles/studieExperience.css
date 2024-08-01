@@ -1,0 +1,101 @@
+.content-divisor.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-tittle {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.main-tittle.certificado {
+    font-size: 18px;
+}
+
+.secondary-tittle {
+    font-size: 18px;
+}
+
+.content {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.timeline-connector {
+    transition: all 0.3s;
+}
+
+.timeline-container:hover .timeline-connector {
+    background-color: rgb(29, 179, 74);
+    transition: all 0.3s;
+}
+
+.skill-tittle {
+    text-align: center;
+    font-weight: 700;
+}
+
+.timeline-container.estudio.skill-grid-layout {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    box-shadow: 24px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box-style.dark {
+    background-color: #1D2835;
+    color: #f0f0f0;
+}
+
+.box-style.light {
+    background-color: #f0f0f0;
+    color: #1D2835;
+}
+
+/* -------------------------------------------------- */
+
+.main-tittle.certificado {
+    font-size: 18px;
+    position: relative;
+    height: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-tittle.certificado-active {
+    font-size: 18px;
+    position: relative;
+    height: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.main-tittle.certificado-active:hover {
+    font-size: 18px;
+    color: rgb(29, 179, 74);
+    transition: color 0.3s;
+}
+

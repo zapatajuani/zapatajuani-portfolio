@@ -1,5 +1,5 @@
 import React from "react";
-import JobExperience from "./jobExperience"
+import StudieExperience from "./studieExperience";
 import { Timeline } from "@mui/lab"
 import { timelineItemClasses } from '@mui/lab/TimelineItem';
 /* ---------- IDIOMAS --------- */
@@ -8,7 +8,7 @@ import enData from '../languages/enData.json'
 import { useEffect, useState, useContext } from 'react';
 import LanguageContext from '../context/languageContext';
 
-function TimeLine () {
+function StudieTimeLine ({ themeMode }) {
 
   const context = useContext(LanguageContext)
 
@@ -31,12 +31,12 @@ function TimeLine () {
       }}
     >
       {
-        Object.keys(data.experiencia).map(
+        Object.keys(data.estudios).map(
           (key, index) => {
-            const isLast = index === Object.keys(data.experiencia).length - 1
+            const isLast = index === Object.keys(data.estudios).length - 1
             return(
               <React.Fragment key={key}>
-                <JobExperience data={data.experiencia[key]} separator={!isLast} />  
+                <StudieExperience data={data.estudios[key]} separator={!isLast} lan={context.lan} mode={themeMode}/>
               </React.Fragment>
             )
           }
@@ -46,4 +46,4 @@ function TimeLine () {
   )
 }
 
-export default TimeLine
+export default StudieTimeLine

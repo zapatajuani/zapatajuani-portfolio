@@ -1,6 +1,7 @@
 import { Container, IconButton } from "@mui/material";
 import Titulo from "./titulo";
-import TimeLine from "./timeLine";
+import JobTimeLine from "./jobTimeLine";
+import StudieTimeLine from "./studiesTimeLine";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useState } from "react";
@@ -109,13 +110,14 @@ function Portfolio() {
           <Divider />
           <br />
           <h1>{lan=='es'?"Experiencia":"Experiencie"}</h1>
-          <TimeLine />
+          <JobTimeLine />
           <br />
           <h1>{lan=='es'?"Proyectos":"Projects"}</h1>
           <br />
           <Proyectos themeMode={mode == darkTheme?'dark':'light'}/>
           <br />
           <h1>{lan=='es'?"Educacion":"Education"}</h1>
+          <StudieTimeLine themeMode={mode == darkTheme?'dark':'light'}/>
 
         </Container>
       </PageChangeMode>

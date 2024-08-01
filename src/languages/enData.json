@@ -4,15 +4,16 @@
         "subtitulo": "Fullstack Developer | Python Developer",
         "descripcion": "I am a developer with a passion for programming, driven by curiosity and continuous learning. I enjoy creating elegant and efficient solutions to complex problems."
     },
+
     "experiencia": {
-        "exp1": {
+        "exp2": {
             "empresa": "SDS - Smart Drawing Services",
             "lugar": "Auckland, NZ",
             "puesto": "Electrical Designer and Draftsman | Software development",
             "tiempo": "January 2021 - Present",
             "experiencia": "I joined a New Zealand engineering company where I worked as an electrical drawing designer, developing in-house design standards and programming work. I developed Python scripts to automate tasks. I worked on the development of a web application for GPS tracking with IOT devices, involving both backend and frontend design. Constantly improving and working to bring the best quality and reliability to customers."
         },
-        "exp2": {
+        "exp1": {
             "empresa": "Freelance work",
             "lugar": "Remote",
             "puesto": "Electrical Drafter",
@@ -20,6 +21,7 @@
             "experiencia": "I have worked for a number of New Zealand companies on high/medium/low power electrical design for water treatment plants. Working remotely in coordination with various teams and using Autocad electrical design software to meet IEC design standards."
         }
     },
+
     "proyectos": {
         "proyecto1": {
             "img": "../src/assets/foto-presentacion.jpeg",
@@ -44,6 +46,80 @@
             "tecnologias": ["html","css","js","react"],
             "url": "https://www.google.com",
             "github": "https://www.youtube.com"
+        }
+    },
+
+    "estudios": {
+        "estudio4": {
+            "institucion": "UTN Buenos Aires - Centro de e-Learning UTN BA",
+            "lugar": "Remote",
+            "titulo": "Diploma in Databases",
+            "tiempo": "Nov 2023 - Feb 2024",
+            "certificado": {
+                "state": true,
+                "url": "/"
+            },
+            "conocimientos": [
+                "Understanding relational databases",
+                "Internal Database Structure",
+                "SQL",
+                "MySQL",
+                "Oracle Database"
+            ]
+        },
+        "estudio3": {
+            "institucion": "UTN Buenos Aires - Centro de e-Learning UTN BA",
+            "lugar": "Remote",
+            "titulo": "Diploma in Python",
+            "tiempo": "Jul 2023 - Feb 2024",
+            "certificado": {
+                "state": true,
+                "url": "/"
+            },
+            "conocimientos": [
+                "Advanced Python skills",
+                "Classes",
+                "Object-oriented programming", 
+                "GUI usage and design",
+                "Design patterns"
+            ]
+        },
+        "estudio2": {
+            "institucion": "UNLP - Facultad de Ciencias Astronomicas y Geofisicas La Plata",
+            "lugar": "La Plata, BA",
+            "titulo": "Bachelor of Science in Astronomy",
+            "tiempo": "2016 - In progress",
+            "certificado": {
+                "state": false,
+                "url": "/"
+            },
+            "conocimientos": [
+                "Advanced Physics",
+                "Advanced Mathematics",
+                "Mathematical Logic",
+                "Statistics",
+                "Algebra",
+                "Linear Algebra",
+                "Multivariable Calculus"
+            ]
+        },
+        "estudio1": {
+            "institucion": "EEST n.º 6 Siderurgia Argentina",
+            "lugar": "San Nicolás de los Arroyos, BA",
+            "titulo": "Electronic Technician",
+            "tiempo": "2009 - 2015",
+            "certificado": {
+                "state": false,
+                "url": "/"
+            },
+            "conocimientos": [
+                "Low/medium voltage installations",
+                "PLC",
+                "PIC",
+                "mikroC software",
+                "Circuit Board Design",
+                "Telecommunications"
+            ]
         }
     }
 }

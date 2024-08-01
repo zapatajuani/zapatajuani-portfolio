@@ -36,3 +36,8 @@
 .titulo div p {
     text-align: justify;
 }
+
+.botonera-titulo {
+    display: flex;
+    gap: 5px;
+}

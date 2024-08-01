@@ -1,7 +1,7 @@
 {
     "titulo": {
         "titulo": "Juan Ignacio Zapata",
-        "subtitulo": "Backend Programmer | Python Developer",
+        "subtitulo": "Fullstack Developer | Python Developer",
         "descripcion": "I am a developer with a passion for programming, driven by curiosity and continuous learning. I enjoy creating elegant and efficient solutions to complex problems."
     },
     "experiencia": {
@@ -18,6 +18,32 @@
             "puesto": "Electrical Drafter",
             "tiempo": "August 2019 - January 2021",
             "experiencia": "I have worked for a number of New Zealand companies on high/medium/low power electrical design for water treatment plants. Working remotely in coordination with various teams and using Autocad electrical design software to meet IEC design standards."
+        }
+    },
+    "proyectos": {
+        "proyecto1": {
+            "img": "../src/assets/foto-presentacion.jpeg",
+            "titulo": "YT-EN",
+            "descripcion": "Soy un desarrollador apasionado por la programación, impulsado por la curiosidad y el aprendizaje continuo. Disfruto creando soluciones elegantes y eficientes a problemas complejos.",
+            "tecnologias": ["html","css","js","react"],
+            "url": "https://www.google.com",
+            "github": "https://www.youtube.com"
+        },
+        "proyecto2": {
+            "img": "../src/assets/foto-presentacion.jpeg",
+            "titulo": "YT-EN",
+            "descripcion": "Soy un desarrollador apasionado por la programación, impulsado por la curiosidad y el aprendizaje continuo. Disfruto creando soluciones elegantes y eficientes a problemas complejos.",
+            "tecnologias": ["html","css","js","react"],
+            "url": "https://www.google.com",
+            "github": "https://www.youtube.com"
+        },
+        "proyecto3": {
+            "img": "../src/assets/foto-presentacion.jpeg",
+            "titulo": "YT-EN",
+            "descripcion": "Soy un desarrollador apasionado por la programación, impulsado por la curiosidad y el aprendizaje continuo. Disfruto creando soluciones elegantes y eficientes a problemas complejos.",
+            "tecnologias": ["html","css","js","react"],
+            "url": "https://www.google.com",
+            "github": "https://www.youtube.com"
         }
     }
 }

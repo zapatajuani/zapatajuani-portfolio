@@ -1,15 +1,19 @@
+import '../styles/titulo.css'
 import profilePic from '../assets/foto-presentacion.jpeg'
+import { IconButton } from '@mui/material';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 /* ---------- IDIOMAS --------- */
 import esData from '../languages/esData.json'
 import enData from '../languages/enData.json'
 import { useEffect, useState, useContext } from 'react';
 import LanguageContext from '../context/languageContext';
-import ResumeBoton from './resumeBoton';
+import ResumeBoton from './botonesTitulo';
 
 const enResumeURL = "https://docs.google.com/document/d/1_Aes68puU_E23T-zarKSx5l16QHNcAskswpSn3KwjNU/edit?usp=sharing"
 const esResumeURL = "https://docs.google.com/document/d/1nO7uOtEymXCU2EK17USbQwbCbzDcyglD3SHFKC0-JVs/edit?usp=sharing"
 
-function Titulo() {
+function Titulo({ themeMode }) {
 
   const context = useContext(LanguageContext)
 
@@ -41,8 +45,14 @@ function Titulo() {
       <div><p>
         {data.titulo.descripcion}
       </p></div>
-      <div>
+      <div className='botonera-titulo'>
         <ResumeBoton url={href}/>
+        <IconButton href='https://www.linkedin.com/in/zapatajuani/' target='_blank'>
+          <LinkedInIcon sx={{fontSize: "35px", color: themeMode=='dark'?'':'#0A66C2'}}/>
+        </IconButton>
+        <IconButton href='https://github.com/zapatajuani' target='_blank'>
+          <GitHubIcon sx={{fontSize: "35px", color: themeMode=='dark'?'':'#000000'}}/>
+        </IconButton>
       </div>
     </div>
   )

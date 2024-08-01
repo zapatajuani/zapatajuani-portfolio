@@ -1,4 +1,5 @@
 import * as React from 'react';
+import '../styles/jobExperience.css'
 import {
     Timeline,
     TimelineItem,
@@ -21,7 +22,7 @@ function JobExperience({ id, data, separator = true }) {
               <p className='secondary-tittle'>{data.lugar}</p>
             </div>
             <div className='content-divisor titulo'>
-              <p className='main-tittle'>{data.puesto}</p>
+              <p className='main-tittle position'>{data.puesto}</p>
               <p className='secondary-tittle'>{data.tiempo}</p>
             </div>
             <p className='content'>{data.experiencia}</p>

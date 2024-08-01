@@ -9,12 +9,28 @@ import Divider from '@mui/material/Divider';
 /* ------- ICONOS --------- */
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
-import EsIcon from "../icons/esIcon";
-import EnIcon from "../icons/enIcon";
+import { EnIcon, EsIcon } from "../icons";
 /* ------- CONTEXTO-------- */
 import { useContext } from "react";
 import LanguageContext from "../context/languageContext";
+/* ------- ANIMACION ------- */
+import { motion, AnimatePresence } from 'framer-motion';
 
+const PageChangeMode = ({ mode, children }) => {
+  return (
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={mode == darkTheme ? 'dark' : 'light'}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        {children}
+      </motion.div>
+    </AnimatePresence>
+  );
+};
 
 const darkTheme = createTheme({
   palette: {
@@ -59,40 +75,50 @@ function Portfolio() {
   return (
     <ThemeProvider theme={mode}>
       <CssBaseline />
-      <Container >
-        <Container>
+      <PageChangeMode mode={mode}>
+        <Container >
+          <Container disableGutters sx={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'end',
+            alignContent: 'center'
+          }}>
 
-          <IconButton
-          onClick={setThemeMode}>
-            {
-              mode == darkTheme?
-              <WbSunnyOutlinedIcon />:
-              <DarkModeOutlinedIcon />
-            }
-          </IconButton>
+            <IconButton
+            onClick={setThemeMode}>
+              {
+                mode == darkTheme?
+                <WbSunnyOutlinedIcon />:
+                <DarkModeOutlinedIcon />
+              }
+            </IconButton>
 
-          <IconButton
-          onClick={setCurrentLan}>
-            {
-              lan == 'es'?
-              <EnIcon /> :
-              <EsIcon />
-            }
-          </IconButton>
+            <IconButton
+            onClick={setCurrentLan}>
+              {
+                lan == 'es'?
+                <EnIcon /> :
+                <EsIcon />
+              }
+            </IconButton>
+
+          </Container>
+          <br />
+          <Titulo themeMode={mode == darkTheme?'dark':'light'}/>
+          <br />
+          <Divider />
+          <br />
+          <h1>{lan=='es'?"Experiencia":"Experiencie"}</h1>
+          <TimeLine />
+          <br />
+          <h1>{lan=='es'?"Proyectos":"Projects"}</h1>
+          <br />
+          <Proyectos themeMode={mode == darkTheme?'dark':'light'}/>
+          <br />
+          <h1>{lan=='es'?"Educacion":"Education"}</h1>
 
         </Container>
-        <br />
-        <Titulo />
-        <br />
-        <Divider />
-        <br />
-        <h1>{lan=='es'?"Experiencia":"Experiencie"}</h1>
-        <TimeLine />
-        <br />
-        <h1>{lan=='es'?"Proyectos":"Proyects"}</h1>
-        <Proyectos />
-
-      </Container>
+      </PageChangeMode>
     </ThemeProvider>
   )
 }

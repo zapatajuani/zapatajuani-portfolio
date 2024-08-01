@@ -1,3 +1,4 @@
+import React from "react";
 import JobExperience from "./jobExperience"
 import { Timeline } from "@mui/lab"
 import { timelineItemClasses } from '@mui/lab/TimelineItem';
@@ -29,8 +30,18 @@ function TimeLine () {
         },
       }}
     >
-      <JobExperience data={data.experiencia.exp1} separator={true} />
-      <JobExperience data={data.experiencia.exp2} separator={false} />
+      {
+        Object.keys(data.experiencia).map(
+          (key, index) => {
+            const isLast = index === Object.keys(data.experiencia).length - 1
+            return(
+              <React.Fragment key={key}>
+                <JobExperience data={data.experiencia[key]} separator={!isLast} />  
+              </React.Fragment>
+            )
+          }
+        ) 
+      }
     </Timeline>
   )
 }

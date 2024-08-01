@@ -1,3 +1,4 @@
+import React from 'react';
 import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
 import { Button } from '@mui/material'
 /* ------- CONTEXTO-------- */
@@ -9,11 +10,12 @@ function ResumeBoton ({ url }) {
 
   return(
     <Button variant="outlined" href={url} target='_blank' sx={{
-      width: 130,
+      width: 'auto',
+      maxWidth: 130,
       fontWeight: 900,
       display: 'flex',
       flexDirection: 'row',
-      alignItems: 'center',
+      alignItems: 'start',
       justifyContent: 'center',
       gap: 1.5
     }}>

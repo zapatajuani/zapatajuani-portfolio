@@ -1,7 +1,7 @@
 {
     "titulo": {
         "titulo": "Juan Ignacio Zapata",
-        "subtitulo": "Programador Backend | Desarrolador Python",
+        "subtitulo": "Programador Fullstack | Desarrolador Python",
         "descripcion": "Soy un desarrollador apasionado por la programación, impulsado por la curiosidad y el aprendizaje continuo. Disfruto creando soluciones elegantes y eficientes a problemas complejos."
     },
     "experiencia": {
@@ -18,6 +18,16 @@
             "puesto": "Diseño eléctrico",
             "tiempo": "Agosto 2019 - Enero 2021",
             "experiencia": "Realicé diferentes trabajos para empresas Neozelandesas de diseño eléctrico de alta/media/baja potencia en el ámbito de plantas potabilizadoras de agua. Trabaje de manera coordinada de manera remota con distintos equipos de trabajo y utilizando el software de diseño Autocad Electrical para estar acorde a los estándares IEC de diseño."
+        }
+    },
+    "proyectos": {
+        "proyecto1": {
+            "img": "../src/assets/foto-presentacion.jpeg",
+            "titulo": "YT-ES",
+            "descripcion": "Soy un desarrollador apasionado por la programación, impulsado por la curiosidad y el aprendizaje continuo. Disfruto creando soluciones elegantes y eficientes a problemas complejos.",
+            "tecnologias": ["html","css","react"],
+            "url": "https://www.google.com",
+            "github": "https://www.youtube.com"
         }
     }
 }

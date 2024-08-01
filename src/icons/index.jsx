@@ -1,0 +1,9 @@
+export { default as CSSIcon } from './components/cssIcon';
+export { default as EnIcon } from './components/enIcon';
+export { default as EsIcon } from './components/esIcon';
+export { default as HTMLIcon } from './components/htmlIcon';
+export { default as JsIcon } from './components/jsIcon';
+export { default as MysqlIcon } from './components/mysqlIcon';
+export { default as NodeIcon } from './components/nodeIcon';
+export { default as PythonIcon } from './components/pythonIcon';
+export { default as ReactIcon } from './components/reactIcon';

@@ -78,6 +78,7 @@ function Portfolio() {
       <CssBaseline />
       <PageChangeMode mode={mode}>
         <Container >
+
           <Container disableGutters sx={{
             display: 'flex',
             flexDirection: 'row',
@@ -104,6 +105,7 @@ function Portfolio() {
             </IconButton>
 
           </Container>
+
           <br />
           <Titulo themeMode={mode == darkTheme?'dark':'light'}/>
           <br />

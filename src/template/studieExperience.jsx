@@ -31,22 +31,18 @@ function AnimatedIcon({ isHovered }) {
   )
 }
 
-function MyModal({ theme, handleClose, open }) {
+function MyModal({ handleClose, open, img }) {
+
   return(
       <Modal
         open={open}
         onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
       >
-        <Box className={theme=='dark'?'box-style dark':'box-style light'}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography>
-        </Box>
+        <motion.img
+        initial={{ opacity: 0}} // Estado inicial (oculto)
+        animate={{ opacity: 1}} // Animación al aparecer
+        transition={{ duration: 0.5 }} // Duración de la transición
+        src={img} alt="diploma" className='box-style'/>
       </Modal>
   )
 }
@@ -124,7 +120,7 @@ function StudieExperience({ data, separator = true, lan, mode }) {
             </div>
           </div>
         </TimelineContent>
-        <MyModal theme={mode} handleClose={handleClose} open={open}/>
+        <MyModal handleClose={handleClose} open={open} img={data.certificado.url}/>
       </TimelineItem>
   )
 }

@@ -41,7 +41,24 @@
             "tiempo": "Nov 2023 - Feb 2024",
             "certificado": {
                 "state": true,
-                "url": ""
+                "url": "/img/utn-db.jpg"
+            },
+            "conocimientos": [
+                "Understanding relational databases",
+                "Internal Database Structure",
+                "SQL",
+                "MySQL",
+                "Oracle Database"
+            ]
+        },
+        "estudio3": {
+            "institucion": "UTN Buenos Aires - Centro de e-Learning UTN BA",
+            "lugar": "Remote",
+            "titulo": "Diploma in Python",
+            "tiempo": "Jul 2023 - Feb 2024",
+            "certificado": {
+                "state": true,
+                "url": "/img/utn-python.jpg"
             },
             "conocimientos": [
                 "Advanced Python skills",
@@ -49,6 +66,43 @@
                 "Object-oriented programming", 
                 "GUI usage and design",
                 "Design patterns"
+            ]
+        },
+        "estudio2": {
+            "institucion": "UNLP - Facultad de Ciencias Astronomicas y Geofisicas La Plata",
+            "lugar": "La Plata, BA",
+            "titulo": "Bachelor of Science in Astronomy",
+            "tiempo": "2016 - In progress",
+            "certificado": {
+                "state": false,
+                "url": "/"
+            },
+            "conocimientos": [
+                "Advanced Physics",
+                "Advanced Mathematics",
+                "Mathematical Logic",
+                "Statistics",
+                "Algebra",
+                "Linear Algebra",
+                "Multivariable Calculus"
+            ]
+        },
+        "estudio1": {
+            "institucion": "EEST n.º 6 Siderurgia Argentina",
+            "lugar": "San Nicolás de los Arroyos, BA",
+            "titulo": "Electronic Technician",
+            "tiempo": "2009 - 2015",
+            "certificado": {
+                "state": false,
+                "url": "/"
+            },
+            "conocimientos": [
+                "Low/medium voltage installations",
+                "PLC",
+                "PIC",
+                "mikroC software",
+                "Circuit Board Design",
+                "Telecommunications"
             ]
         }
     }

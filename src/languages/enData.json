@@ -57,7 +57,7 @@
             "tiempo": "Nov 2023 - Feb 2024",
             "certificado": {
                 "state": true,
-                "url": "/"
+                "url": "/img/utn-db.jpg"
             },
             "conocimientos": [
                 "Understanding relational databases",
@@ -74,7 +74,7 @@
             "tiempo": "Jul 2023 - Feb 2024",
             "certificado": {
                 "state": true,
-                "url": "/"
+                "url": "/img/utn-python.jpg"
             },
             "conocimientos": [
                 "Advanced Python skills",
